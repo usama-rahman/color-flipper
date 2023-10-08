@@ -5,7 +5,6 @@ const color = document.querySelector(".color");
 
 btn.addEventListener("click",function(){
     const randomNum = getRandomNum();
-    console.log(randomNum);
     document.body.style.backgroundColor = colors[randomNum];
     color.textContent = colors[randomNum];
 })
